@@ -1,4 +1,4 @@
-# Priyanka Goenka Portfolio
+# Priyanka-Goenka Portfolio
 
 My personal portfolio website built with Next.js, TailwindCSS, and Framer Motion.
 
