@@ -4,6 +4,8 @@ const nextConfig = {
   // Tells Next.js to export static HTML/CSS/JS files
   basePath: '',
   // For username.github.io repos, basePath should be empty
+  trailingSlash: true,
+  // This helps with GitHub Pages navigation
   images: {
     unoptimized: true,
     // This allows images to work in static export

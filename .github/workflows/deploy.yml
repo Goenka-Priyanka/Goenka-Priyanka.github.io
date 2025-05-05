@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -47,6 +47,7 @@ jobs:
         run: |
           cp -r ../public/* out/ || true
           cp ../_headers out/ || true
+          cp ../CNAME out/ || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
