@@ -33,8 +33,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
-          cache-dependency-path: portfolio/package-lock.json
 
       - name: Install dependencies
         run: npm install
@@ -47,14 +45,24 @@ jobs:
         
       - name: Copy important files
         run: |
-          cp -r ../public/* out/ || true
-          cp ../_headers out/ || true
-          cp ../CNAME out/ || true
+          mkdir -p out
+          ls -la out
+          cp -r ../public/* out/ 2>/dev/null || true
+          cp ../_headers out/ 2>/dev/null || true
+          cp ../CNAME out/ 2>/dev/null || true
+          echo "Files in out directory:"
+          ls -la out/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./portfolio/out
+          
+      - name: GitHub Pages Info
+        run: |
+          echo "GitHub Pages will be deployed from the 'out' directory."
+          echo "Repository name: ${{ github.repository }}"
+          echo "GitHub Pages URL: https://${{ github.repository_owner }}.github.io"
 
   deploy:
     environment:
