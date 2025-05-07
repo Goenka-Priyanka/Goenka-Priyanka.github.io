@@ -38,7 +38,7 @@ function Home() {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6"
           >
-            Hi, I'm <span className="text-purple-400">Priyanka Goenka</span>
+            Hi, I'm <span className="text-purple-400">Priyanka </span>
           </motion.h1>
           
           <motion.p
