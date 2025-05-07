@@ -146,7 +146,7 @@ function Home() {
                     <motion.div initial={{opacity:0, x:40}} whileInView={{opacity:1, x:0}} transition={{duration:0.6}} viewport={{once:true}} className="text-left">
                       <div className="flex flex-col items-start">
                         <div className="bg-white rounded-full p-2 shadow-lg mb-2 border-2 border-green-400">
-                          <img src="/University_of_California_San_Diego.avif" alt="University Logo" className="w-16 h-16 object-contain rounded-lg" />
+                          <img src="/GISMA_Logo_September2024.png" alt="University Logo" className="w-16 h-16 object-contain rounded-lg" />
                         </div>
                         <div className="bg-green-700 text-white px-4 py-2 rounded-lg shadow-md font-semibold text-lg mb-1">2024–2025</div>
                         <div className="text-gray-200 text-base font-medium">Gisma University of Applied Science</div>
@@ -161,7 +161,7 @@ function Home() {
                     <motion.div initial={{opacity:0, x:-40}} whileInView={{opacity:1, x:0}} transition={{duration:0.6}} viewport={{once:true}} className="text-right">
                       <div className="flex flex-col items-end">
                         <div className="bg-white rounded-full p-2 shadow-lg mb-2 border-2 border-blue-400">
-                          <img src="/Walmart_logo.png" alt="Wells Fargo Logo" className="w-16 h-16 object-contain" />
+                          <img src="Wells_fargo.png" alt="Wells Fargo Logo" className="w-16 h-16 object-contain" />
                         </div>
                         <div className="bg-blue-700 text-white px-4 py-2 rounded-lg shadow-md font-semibold text-lg mb-1">2022–2024</div>
                         <div className="text-gray-200 text-base font-medium">Wells Fargo</div>
@@ -179,11 +179,12 @@ function Home() {
                   <div className="w-1/2 flex justify-start pl-8">
                     <motion.div initial={{opacity:0, x:40}} whileInView={{opacity:1, x:0}} transition={{duration:0.6}} viewport={{once:true}} className="text-left">
                       <div className="flex flex-col items-start">
-                        <div className="bg-white rounded-full p-1 shadow-lg mb-2 border-2 border-yellow-400">
-                          <img src="/Walmart_logo.png" alt="Walmart Logo" className="w-10 h-10 object-contain" />
+                        <div className="bg-white rounded-full p-2 shadow-lg mb-2 border-2 border-yellow-400">
+                          <img src="/Walmart_logo.png" alt="Walmart Logo" className="w-16 h-16 object-contain" />
                         </div>
-                        <div className="bg-yellow-700 text-white px-3 py-1 rounded shadow text-sm font-semibold mb-1">2019-2022</div>
-                        <div className="text-gray-300 text-sm">Associate Operations Analyst, Walmart</div>
+                        <div className="bg-yellow-700 text-white px-4 py-2 rounded-lg shadow-md font-semibold text-lg mb-1">2019–2022</div>
+                        <div className="text-gray-200 text-base font-medium">Walmart</div>
+                        <div className="text-gray-400 text-sm">Associate Operations Analyst</div>
                       </div>
                     </motion.div>
                   </div>
@@ -194,7 +195,7 @@ function Home() {
                     <motion.div initial={{opacity:0, x:-40}} whileInView={{opacity:1, x:0}} transition={{duration:0.6}} viewport={{once:true}} className="text-right">
                       <div className="flex flex-col items-end">
                         <div className="bg-white rounded-full p-2 shadow-lg mb-2 border-2 border-purple-400">
-                          <img src="/bg_removed.avif" alt="Amazon Logo" className="w-16 h-16 object-contain" />
+                          <img src="/amazon_circular_logo.png" alt="Amazon Logo" className="w-16 h-16 object-contain" />
                         </div>
                         <div className="bg-purple-700 text-white px-4 py-2 rounded-lg shadow-md font-semibold text-lg mb-1">2017–2019</div>
                         <div className="text-gray-200 text-base font-medium">Amazon Development Centre India</div>
