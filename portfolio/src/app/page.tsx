@@ -118,13 +118,13 @@ function Home() {
               </div>
               <div className="md:w-7/10 prose dark:prose-invert max-w-none text-justify">
                 <p className="mb-5 text-gray-300 text-lg md:text-lg">
-                  Hi, I'm Priyanka Goenka. Currently, I'm pursuing a Master of Science in Business Management and Project Management at Gisma University of Applied Science in Potsdam, Germany. I am an independent and highly motivated e-commerce enthusiast with proven experience and strong work ethic in account management, process enhancement, and supporting sales strategies.
+                  I'm Priyanka Goenka, a tech-savvy and results-driven professional currently pursuing a Master of Science in Business Management and Project Management at Gisma University of Applied Sciences, Potsdam. With over six years of experience in e-commerce operations, account management, and process improvement, I specialize in delivering measurable results through data-driven strategies and cross-functional collaboration.
                 </p>
                 <p className="mb-5 text-gray-300 text-lg md:text-lg">
-                  Before joining Gisma University, I worked as a Business Execution Consultant Assistant Vice President at Wells Fargo, where I focused on spearheading the development of mitigation processes for risks resulting from control failures, conducting Quality Assurance protocols, and mentoring junior Strategy and Execution staff. I successfully reduced compliance errors from 60% to 5% during the annual internal audit.
+                  At Wells Fargo, I served as Assistant Vice President, where I led quality assurance and risk mitigation initiatives—reducing compliance errors from 60% to 5%—and mentored junior staff on policy and change management practices. At Walmart Labs, I introduced 35,000+ SKUs, optimized catalog content, and helped reduce vendor queries through data-backed enhancements. At Amazon, I worked with high-value U.S. vendors to improve catalog health, resolve systemic issues, and leverage Amazon Retail Analytics (ARA) for sales growth.
                 </p>
                 <p className="mb-5 text-gray-300 text-lg md:text-lg">
-                  I also have valuable experience at Walmart as an Associate Operations Analyst and at Amazon Development Centre India as an SPS Associate, where I collaborated with high-value US vendors, guided them in leveraging Amazon Retail Analytics, and coordinated with cross-functional teams to improve customer experience.
+                  Proficient in an array of AI tools, Tableau and JIRA, I'm passionate about using technology to streamline operations, elevate customer experience, and support scalable business solutions.
                 </p>
               </div>
             </div>

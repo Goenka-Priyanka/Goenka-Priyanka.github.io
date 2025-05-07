@@ -4,7 +4,8 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaPhone } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 export default function Contact() {
   const [sectionRef, sectionInView] = useInView({
@@ -14,21 +15,18 @@ export default function Contact() {
 
   const contactItems = [
     {
-      icon: <FaEnvelope className="text-3xl text-purple-500" />,
-      title: "Email",
-      description: "priyenkagoenka@gmail.com",
-      link: "mailto:priyenkagoenka@gmail.com",
-    },
-    {
-      icon: <FaLinkedin className="text-3xl text-purple-500" />,
+      icon: <FaLinkedin className="text-3xl text-white" />,
       title: "LinkedIn",
-      description: "Connect with me on LinkedIn",
       link: "https://www.linkedin.com/in/priyanka-goenka/",
     },
     {
-      icon: <FaGithub className="text-3xl text-purple-500" />,
-      title: "Phone",
-      description: "+4915906660961",
+      icon: <MdEmail className="text-3xl text-white" />,
+      title: "priyenkagoenka@gmail.com",
+      link: "mailto:priyenkagoenka@gmail.com",
+    },
+    {
+      icon: <FaPhone className="text-3xl text-white" />,
+      title: "+4915906660961",
       link: "tel:+4915906660961",
     },
   ];
@@ -70,17 +68,13 @@ export default function Contact() {
             >
               <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Get In Touch</h1>
               <div className="w-16 h-1 bg-purple-600 mx-auto mb-6"></div>
-              <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
-                If you'd like to discuss e-commerce management opportunities, process improvement strategies, 
-                or connect about account management and customer experience enhancement, feel free to reach out!
-              </p>
             </motion.div>
             
             <motion.div
               variants={containerVariants}
               initial="hidden"
               animate={sectionInView ? "visible" : "hidden"}
-              className="grid grid-cols-1 md:grid-cols-2 gap-6"
+              className="flex flex-col items-center gap-6 max-w-md mx-auto"
             >
               {contactItems.map((item, index) => (
                 <motion.a
@@ -89,12 +83,11 @@ export default function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   variants={itemVariants}
-                  className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 flex items-center hover:shadow-lg transition-shadow duration-300"
+                  className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 flex items-center w-full hover:shadow-lg transition-shadow duration-300"
                 >
                   <div className="mr-4">{item.icon}</div>
                   <div>
                     <h2 className="text-xl font-semibold text-gray-900 dark:text-white">{item.title}</h2>
-                    <p className="text-gray-600 dark:text-gray-300">{item.description}</p>
                   </div>
                 </motion.a>
               ))}
