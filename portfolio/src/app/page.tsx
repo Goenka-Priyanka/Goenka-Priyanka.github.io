@@ -48,15 +48,15 @@ function Home() {
             className="text-xl sm:text-2xl text-gray-300 mb-8 flex flex-col items-center gap-2"
           >
             <span className="flex items-center gap-2 justify-center">
-              <span role="img" aria-label="desktop computer">🖥️</span>
+              <span role="img" aria-label="university">🎓</span>
               MSc Student at Gisma University of Applied Science, Germany
             </span>
             <span className="flex items-center gap-2 justify-center">
-              <span role="img" aria-label="chart">📊</span>
+              <span role="img" aria-label="briefcase">🏦</span>
               Ex Business Execution Consultant AVP at Wells Fargo
             </span>
             <span className="flex items-center gap-2 justify-center">
-              <span role="img" aria-label="graduation cap">🎓</span>
+              <span role="img" aria-label="books">📚</span>
               Masters in Commerce from Calcutta University
             </span>
           </motion.p>
