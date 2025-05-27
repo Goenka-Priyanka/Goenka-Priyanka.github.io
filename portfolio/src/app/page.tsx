@@ -73,12 +73,14 @@ function Home() {
             >
               View Resume <FaArrowDown className="ml-2" />
             </a>
+            {/* Projects button hidden - To restore: uncomment the next block
             <a 
               href="#projects" 
               className="px-8 py-3 rounded-md bg-gray-700 hover:bg-gray-600 text-white transition-colors duration-300"
             >
               Explore Projects
             </a>
+            */}
           </motion.div>
         </div>
       </motion.section>
@@ -213,7 +215,13 @@ function Home() {
         </div>
       </section>
 
-      {/* Projects Section */}
+      {/* 
+      ========================================================================
+      PROJECTS SECTION - TEMPORARILY HIDDEN
+      To restore: Remove the comment tags surrounding this section
+      ========================================================================
+      */}
+      {/* 
       <section id="projects" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
         <div className="max-w-6xl mx-auto">
           <motion.div
@@ -230,7 +238,6 @@ function Home() {
             </p>
           </motion.div>
           
-          {/* Featured Project */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -296,6 +303,7 @@ function Home() {
           </motion.div>
         </div>
       </section>
+      */}
       
       {/* Resume Section */}
       <section id="resume" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-800">

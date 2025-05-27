@@ -5,13 +5,15 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { FiMenu, FiX } from 'react-icons/fi';
 
+
+// Add { name: 'Projects', path: '/#projects' } to navLinks to restore the Projects section which is temporarily hidden
 const navLinks = [
   { name: 'Home', path: '/' },
   { name: 'About', path: '/#about' },
-  { name: 'Projects', path: '/#projects' },
   { name: 'Resume', path: '/#resume' },
   { name: 'Contact', path: '/contact' },
 ];
+
 
 export default function Navbar() {
   const [mounted, setMounted] = useState(false);
